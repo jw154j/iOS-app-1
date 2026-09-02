@@ -1,0 +1,14 @@
+name: SimpleStarterApp
+options:
+  bundleIdPrefix: com.jasonwhitaker
+targets:
+  SimpleStarterApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - SimpleStarterApp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.jasonwhitaker.simplestarterapp
+        CODE_SIGNING_ALLOWED: NO
